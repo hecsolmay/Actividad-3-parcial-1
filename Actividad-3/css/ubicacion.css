@@ -1,0 +1,116 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: linear-gradient(rgb(188, 201, 200),rgb(56, 172, 187));
+}
+
+.encabezado {
+    background-image: url(/img/bad_bunny.jpg);
+    opacity: 0.8;
+    background-size: cover;
+    background-position: center;
+    width: 75%;
+    height: 100vh;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 80px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: transform.2s;
+
+}
+
+.encabezado h1 {
+    
+    font-size: 70px;
+    font-style: italic;
+}
+
+.encabezado:hover {
+    transform: scale(1.2);
+}
+
+.pantalla-dividida {
+    display: flex;
+}
+
+.presentacion {
+    background: linear-gradient(to bottom, #0000ff79,#00ffbf);
+    font-size: 25px;
+    width: 30%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-left: 7%;
+    padding-left: 30px;
+    margin-bottom: 50px;
+}
+
+.ubicacion {
+    margin-top: 50px;
+    margin-left: 10%;
+    margin-bottom: 50px;
+}
+
+.presentacion h2{
+    padding: 0;
+    font-style: oblique;
+    text-align: center;
+    color: aliceblue;
+}
+
+.presentacion h4 {
+    color: bisque;
+}
+
+.pie {
+    margin-top: 20px;
+    background-color: rgba(124, 136, 134, 0.5);
+    border-radius: 40px;
+    width: auto;
+    font-size: 20px;
+    padding-left: 7%;
+    line-height: 40px;
+    
+}
+
+.pie h5{
+    padding: 0;
+    text-align: center;
+    font-size: 30px;
+}
+
+#link {
+    color: black;
+    text-decoration: none;
+}
+
+footer {
+    font-style: oblique;
+}
+
+#zoom{
+    transition: transform.2s;
+}
+
+#zoom:hover {
+    transform: scale(0.9);
+}
+
+.boton {
+    color: white;
+    background-color: black;
+    border-radius: 50px;
+    padding: 15px;
+    cursor: pointer;
+}
+
+.division {
+    text-align: start;
+    margin-left: 80px;
+    margin-top: 40px;
+    margin-bottom: 80px;
+}
